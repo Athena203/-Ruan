@@ -18,10 +18,10 @@ int main()
 	ElementType X;
 	L = ReadInput();
 	scanf("%d", &X);
-	if (BinarySearch(L, X) == 0)printf("迭代二分实现没找到\n");
-	else printf("迭代二分实现找到的位置：%d\n", BinarySearch(L, X));
-	if (recur(L, X, 1, L->Last) == 0)printf("递归二分实现没找到\n");
-	else printf("递归二分实现找到的位置：%d\n", recur(L, X, 1, L->Last));
+	if (BinarySearch(L, X) == 0)printf("杩唬浜屽垎瀹炵幇娌℃壘鍒癨n");
+	else printf("杩唬浜屽垎瀹炵幇鎵惧埌鐨勪綅缃細%d\n", BinarySearch(L, X));
+	if (recur(L, X, 1, L->Last) == 0)printf("閫掑綊浜屽垎瀹炵幇娌℃壘鍒癨n");
+	else printf("閫掑綊浜屽垎瀹炵幇鎵惧埌鐨勪綅缃細%d\n", recur(L, X, 1, L->Last));
 	system("pause");
 	return 0;
 }
